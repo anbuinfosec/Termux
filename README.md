@@ -17,7 +17,7 @@ Useful scripts for enhancing your Termux experience — from essential package i
 | Script     | Description                                              |
 | ---------- | -------------------------------------------------------- |
 | `basic.sh` | Installs essential Termux packages and development tools |
-| `fix.sh`   | Sets up or fixes `sudo` behavior in Termux               |
+| `fix_sudo.sh`   | Sets up or fixes `sudo` behavior in Termux               |
 
 ---
 
@@ -32,7 +32,7 @@ curl -sL https://raw.githubusercontent.com/anbuinfosec/Termux/main/basic.sh | ba
 ### 🔹 Fix sudo in Termux
 
 ```bash
-curl -sL https://raw.githubusercontent.com/anbuinfosec/Termux/main/fix.sh | bash
+curl -sL https://raw.githubusercontent.com/anbuinfosec/Termux/main/fix_sudo.sh | bash
 ```
 
 ---
