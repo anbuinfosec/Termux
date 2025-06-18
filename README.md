@@ -1,8 +1,43 @@
-# sudo-termux
-Termux sudo fixer
+# 🔧 Termux
 
-# Run
+Useful scripts for enhancing your Termux experience — from essential package installations to sudo fixes and more.
+
+---
+
+## 📦 Features
+
+* One-command installer for **basic Termux packages**
+* Quick **sudo fixer** for better script compatibility
+* Clean and minimal shell-based tools
+
+---
+
+## 📁 Repository Structure
+
+| Script     | Description                                              |
+| ---------- | -------------------------------------------------------- |
+| `basic.sh` | Installs essential Termux packages and development tools |
+| `fix.sh`   | Sets up or fixes `sudo` behavior in Termux               |
+
+---
+
+## 🚀 Usage
+
+### 🔹 Install Basic Termux Packages
 
 ```bash
-curl -sL https://raw.githubusercontent.com/anbuinfosec/sudo-termux/main/fix.sh | bash
+curl -sL https://raw.githubusercontent.com/anbuinfosec/Termux/main/basic.sh | bash
 ```
+
+### 🔹 Fix sudo in Termux
+
+```bash
+curl -sL https://raw.githubusercontent.com/anbuinfosec/Termux/main/fix.sh | bash
+```
+
+---
+
+## 👤 Author
+
+**Mohammad Alamin**
+[GitHub: anbuinfosec](https://github.com/anbuinfosec)
